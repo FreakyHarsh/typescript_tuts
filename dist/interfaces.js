@@ -8,8 +8,17 @@ var Human = (function () {
     Human.prototype.greet = function (msg) {
         return msg;
     };
+    Human.prototype.add = function (n1, n2) {
+        return n1 + n2;
+    };
     return Human;
 }());
-var human1 = new Human('harsh bantai', 21, ['eating', 'sleeping', 'coding', 'gaming']);
+var human1 = new Human("harsh bantai", 21, [
+    "eating",
+    "sleeping",
+    "coding",
+    "gaming",
+]);
 console.log(human1);
-//# sourceMappingURL=app.js.map
+console.log(human1.add(4, 5));
+//# sourceMappingURL=interfaces.js.map
