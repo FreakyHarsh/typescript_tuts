@@ -19,4 +19,4 @@ function printEmployeeInformation(emp) {
         console.log('Start Date: ' + emp.startDate);
     }
 }
-//# sourceMappingURL=app.js.map
+//# sourceMappingURL=typeguard.js.map
